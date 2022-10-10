@@ -1,3 +1,22 @@
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+.boxdebox2 {
+    background-color: rgb(242,250,252);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    height: 30%;
+}
+.imageboxdebox2 {
+    height: 8%;
+}
 .body {
 	width: 100vw;
 	margin: 0px;

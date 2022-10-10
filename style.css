@@ -1,4 +1,19 @@
 
+@font-face {
+	font-family: 'fabrands';
+	src: 	url(‘Assets/fonts/fa-brands-400.eot’) format(‘eot’),
+			url(‘Assets/fonts/fa-brands-400.ttf’) format(‘truetype’)
+			url(‘Assets/fonts/fa-brands-400.woff’) format(‘woff’)
+			url(‘Assets/fonts/fa-brands-400.woff2’) format(‘woff2’)
+			url(‘Assets/fonts/fa-regular-400.eot’) format(‘eot’)
+			url(‘Assets/fonts/fa-regular-400.ttf’) format(‘ttf’)
+			url(‘Assets/fonts/fa-regular-400.woff’) format(‘woff’)
+			url(‘Assets/fonts/fa-regular-400.woff2’) format(‘woff2’)
+			url(‘Assets/fonts/fa-solid-900.eot’) format(‘eot’)
+			url(‘Assets/fonts/fa-solid-900.woff’) format(‘woff’)
+			url(‘Assets/fonts/fa-solid-900.woff2’) format(‘woff2’)
+}
+
 .logo{
     width: 100pt;
 }

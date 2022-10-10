@@ -16,10 +16,12 @@ h1{
 	text-align: center;
 }
 
-#pbox1 {
-	font-size: 20pt;
-	text-align:center;
-	color: grey;
+h3 {
+	font-size: 60pt;
+	text-align: center;
+	margin: 0;
+}
+
 
 nav{
     display: flex;
@@ -67,6 +69,19 @@ body {
 	align-items: center;
 }
 
+.box4 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+
+.chiffre {
+	display: flex;
+	flex-direction: column;
+	margin: 10pt;
+
+}
+
 .download {
 	display: flex;
 	flex-direction:column;
@@ -81,14 +96,56 @@ body {
 	align-items: center;
 }
 
-#mac {
+
+#pbox1{
+	text-align: center;
+	width: 90%;
+	font-size: 16pt;
+	text-align:center;
+	color: grey;
+}
+
+.large{
+	font-size: 25pt;
+	width: 90%;
+	text-align: center;
+}
+
+.small{
+	font-size: 16pt;
+	color: grey;
+	text-align: center;
+	margin: 0;
+}
+
+.violet {
 	color: white;
 	background-color: #574dd2;
 	border-radius: 30px;
 	font-size: 12pt;
 	padding: 10pt;
-	width: 35%;
+	width: 40%;
+	margin-bottom: 10pt;
+}
 
+.rose {
+	color: white;
+	background-color: #d9507d;
+	border-radius: 30px;
+	font-size: 12pt;
+	padding: 10pt;
+	width: 40%;
+	margin-bottom: 50pt;
+}
+
+.blanc {
+	color: black;
+	background-color: white;
+	border-radius: 30px;
+	font-size: 12pt;
+	padding: 10pt;
+	width: 40%;
+	margin-bottom: 10pt;
 }
 
 #smartphone {

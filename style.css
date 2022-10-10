@@ -16,10 +16,17 @@ h1{
 	text-align: center;
 }
 
+
 #pbox1 {
 	font-size: 20pt;
 	text-align:center;
 	color: grey;
+}
+
+h3 {
+	font-size: 60pt;
+	text-align: center;
+	margin: 0;
 }
 
 nav{
@@ -29,6 +36,7 @@ nav{
 
 
 .box2 {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -36,20 +44,36 @@ nav{
 	width: 1000px;
     height: 550px;
 	align-items: center;   
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 50pt;
+	padding-right: 50pt;
+}
+	
+
+.titreminibox{
+	font-size: 16px;
+    font-weight: 900;
+}
+.textminibox{
+	font-size: 8px;
+
 }
 
 .boxdebox2 {
     background-color: rgb(242,250,252);
-    text-align: center;
-	width: 300px;
-    height: 200px;
+	text-align: center;
+	
 	border-radius: 5%;
-	padding-top: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+	justify-content: space-between;
+	padding: 10pt;
+    margin: 10pt;
+	
+
 }
 .imageboxdebox2 {
-	height: 60px;
+	height: 25pt;
 }
 
 body {
@@ -66,6 +90,19 @@ body {
 	align-items: center;
 }
 
+.box4 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+
+.chiffre {
+	display: flex;
+	flex-direction: column;
+	margin: 10pt;
+
+}
+
 .download {
 	display: flex;
 	flex-direction:column;
@@ -80,14 +117,56 @@ body {
 	align-items: center;
 }
 
-#mac {
+
+#pbox1{
+	text-align: center;
+	width: 90%;
+	font-size: 16pt;
+	text-align:center;
+	color: grey;
+}
+
+.large{
+	font-size: 25pt;
+	width: 90%;
+	text-align: center;
+}
+
+.small{
+	font-size: 16pt;
+	color: grey;
+	text-align: center;
+	margin: 0;
+}
+
+.violet {
 	color: white;
 	background-color: #574dd2;
 	border-radius: 30px;
 	font-size: 12pt;
 	padding: 10pt;
-	width: 35%;
+	width: 40%;
+	margin-bottom: 10pt;
+}
 
+.rose {
+	color: white;
+	background-color: #d9507d;
+	border-radius: 30px;
+	font-size: 12pt;
+	padding: 10pt;
+	width: 40%;
+	margin-bottom: 50pt;
+}
+
+.blanc {
+	color: black;
+	background-color: white;
+	border-radius: 30px;
+	font-size: 12pt;
+	padding: 10pt;
+	width: 40%;
+	margin-bottom: 10pt;
 }
 
 #smartphone {

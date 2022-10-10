@@ -1,3 +1,4 @@
+
 .logo{
     width: 100pt;
 }
@@ -5,7 +6,59 @@
 #bars{
     width: 300pt;
 }
-/* nav #logo #bars{
-    width: 100pt;
-} */
+
+
+
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+.boxdebox2 {
+    background-color: rgb(242,250,252);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    height: 30%;
+}
+.imageboxdebox2 {
+    height: 8%;
+}
+.body {
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+}
+
+.box1 {
+	display: flex;
+	flex-direction: column ;
+	background: linear-gradient(180deg, rgba(207,233,247,1) 0%, rgba(255,255,255,1) 100%);
+	align-items: center;
+}
+
+.download {
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+}
+
+.description {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#smartphone {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 

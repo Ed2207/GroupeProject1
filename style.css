@@ -28,23 +28,31 @@ nav{
 
 }
 
+
 .box2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+	align-items: start;
+	width: 1000px;
+    height: 550px;
+	align-items: center;
+	
     
     
 }
 .boxdebox2 {
     background-color: rgb(242,250,252);
     text-align: center;
-    padding: 20px;
-    margin: 20px;
-    width: 20%;
-    height: 30%;
+	width: 300px;
+    height: 200px;
+	border-radius: 5%;
+	padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .imageboxdebox2 {
-    height: 8%;
+	height: 60px;
 }
 .body {
 	width: 100vw;

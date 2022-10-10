@@ -22,6 +22,7 @@ h1{
 	text-align:center;
 	color: grey;
 }
+
 h3 {
 	font-size: 60pt;
 	text-align: center;
@@ -35,6 +36,14 @@ nav{
 
 
 .box2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	align-items: start;
+	width: 1000px;
+    height: 550px;
+	align-items: center;   
 	display: flex;
 	flex-wrap: wrap;
     justify-content: center;
@@ -49,7 +58,9 @@ nav{
 }
 .textminibox{
 	font-size: 8px;
+
 }
+
 .boxdebox2 {
     background-color: rgb(242,250,252);
 	text-align: center;
@@ -166,4 +177,14 @@ body {
 }
 
 #ls-box3{
+	list-style-image: url(./Assets/list-arrow.png);
+}
+
+.box3 {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	width: 90%;
+	text-align: center;
+	
 }

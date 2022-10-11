@@ -186,5 +186,32 @@ body {
 	justify-content: center;
 	width: 90%;
 	text-align: center;
+
+}
+
+#Email{
+	color: #574dd2;
+	text-decoration-style: solid;
+}
+
+.box8{
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	text-align: center;
+	flex-direction: column;
 	
+}
+
+#RS{
+	margin-bottom: 5pt;
+}
+
+#RS a{
+	color: black;
+}
+#info a{
+	text-decoration-line: none;
+	text-decoration-color: black;
+	color: black;
 }

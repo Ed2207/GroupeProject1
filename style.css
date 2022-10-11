@@ -1,10 +1,13 @@
 body {
 	width: 100vw;
-	height: 100vh;
 	margin: 0;
-	padding: 0px;
-	margin:0;
-	font-family: 'fabrands';
+	padding: 0;
+}
+
+#main_container{
+	margin: 10pt;
+	display: flex;
+	flex-direction: column;
 }
 
 nav{
@@ -22,11 +25,6 @@ nav{
     font-size: 20pt;
 }
 
-#main_container{
-	margin: 10pt;
-	display: flex;
-	flex-direction: column;
-}
 
 .box1 {
 	display: flex;
@@ -263,9 +261,6 @@ h6 {
 	font-size: 16pt;
 	margin-top: 10pt;
 }
-
-
-
 /*
 .PI {
 	grid-column: 1;
@@ -312,8 +307,6 @@ h6 {
 	border-radius: 5%;
 }
 */
-
-
 
 .download {
 	display: flex;
@@ -393,7 +386,22 @@ h6 {
 }
 
 
+@media screen and (min-width: 1080px) {
+	nav{
+    background-color:#d4e9f5;
+    padding: 10pt;
+}
 
+
+
+
+
+
+
+
+
+
+}
 
 
 

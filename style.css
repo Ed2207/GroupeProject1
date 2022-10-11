@@ -38,42 +38,38 @@ nav{
 .box2 {
 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-	align-items: start;
-	width: 1000px;
-    height: 550px;
-	align-items: center;   
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 50pt;
-	padding-right: 50pt;
+    flex-direction: column;
+	align-items: center;
 }
 	
 
 .titreminibox{
-	font-size: 16px;
+	font-size: 24pt;
     font-weight: 900;
 }
 .textminibox{
-	font-size: 8px;
+	font-size: 18pt;
+    color: gray;
 
 }
 
 .boxdebox2 {
+	display: block;
     background-color: rgb(242,250,252);
 	text-align: center;
-	
 	border-radius: 5%;
-	justify-content: space-between;
-	padding: 10pt;
-    margin: 10pt;
+	height: 400pt;
+	width: 800pt;
+	padding-top: 200pt;
+	margin-top: 30pt;
+
+	
+
 	
 
 }
 .imageboxdebox2 {
-	height: 25pt;
+	height: 90pt;
 }
 
 body {

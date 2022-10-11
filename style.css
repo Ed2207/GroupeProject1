@@ -16,17 +16,9 @@ body {
     font-size: 20pt;
 }
 
-
 h1{
 	font-size: 50pt;
 	text-align: center;
-}
-
-
-#pbox1 {
-	font-size: 20pt;
-	text-align:center;
-	color: grey;
 }
 
 h3 {
@@ -40,9 +32,7 @@ nav{
     justify-content: space-between;
 }
 
-
 .box2 {
-
     display: flex;
     flex-direction: column;
 	align-items: center;
@@ -55,15 +45,14 @@ nav{
 	
 }
 	
-
 .titreminibox{
 	font-size: 24pt;
     font-weight: 900;
 }
+
 .textminibox{
 	font-size: 18pt;
-    color: gray;
-
+  color: gray;
 }
 
 .boxdebox2 {
@@ -71,6 +60,7 @@ nav{
     background-color: rgb(242,250,252);
 	text-align: center;
 	border-radius: 5%;
+	justify-content: space-between;
 	height: 400pt;
 	width: 90%;
 	padding-top: 200pt;
@@ -122,17 +112,11 @@ nav{
 	border-radius: 5%;
 }
 */
+
 .imageboxdebox2 {
 	height: 90pt;
 }
 
-
-.box1 {
-	display: flex;
-	flex-direction: column ;
-	background: linear-gradient(180deg, rgba(207,233,247,1) 0%, rgba(255,255,255,1) 100%);
-	align-items: center;
-}
 
 .box4 {
 	display: flex;
@@ -144,7 +128,6 @@ nav{
 	display: flex;
 	flex-direction: column;
 	margin: 10pt;
-
 }
 
 .download {
@@ -161,7 +144,6 @@ nav{
 	align-items: center;
 }
 
-
 #pbox1{
 	text-align: center;
 	width: 90%;
@@ -174,6 +156,16 @@ nav{
 	font-size: 40pt;
 	width: 90%;
 	text-align: center;
+}
+
+.medium_grey {
+	font-size: 20pt;
+	color: grey;
+}
+
+.medium_white {
+	font-size: 17pt;
+	color: white;
 }
 
 .small{
@@ -213,6 +205,20 @@ nav{
 	margin-bottom: 10pt;
 }
 
+.box1 {
+	display: flex;
+	flex-direction: column ;
+	background: linear-gradient(180deg, rgba(207,233,247,1) 0%, rgba(255,255,255,1) 100%);
+	align-items: center;
+	text-align: center;
+}
+
+.large_blanc {
+	color: white;
+	font-size: 30pt;
+	width: 90%;
+}
+
 #smartphone {
 	width: 90%;
 	display: flex;
@@ -220,16 +226,79 @@ nav{
 	align-items: center;
 }
 
-#ls-box3{
-	list-style-image: url(./Assets/list-arrow.png);
-}
-
 .box3 {
     display: flex;
     flex-wrap: wrap;
 	justify-content: center;
 	width: 90%;
+	text-align: center;	
+}
+
+.box6 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/pricing-background.jpeg);
+	background-repeat: no-repeat;
+	background-position: 0pt -60pt;
+	background-size: cover, cover;
+}	
+
+.partie1 {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 10pt;
+	box-sizing: border-box;
+	border-radius: 20pt 20pt 0pt 0pt;
+}
+
+.partie2 {
+	width: 80%;
+	background-color: white;
+	border-radius: 0pt 0pt 20pt 20pt;
+	border-bottom: 1pt black solid;
+	border-right: 1pt black solid;
+	border-left: 1pt black solid;
+}
+
+h6 {
+	color: pink;
+	font-size: 18pt;
+}
+#forfait{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.pricing {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20pt;
+}
+
+.box7 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+#ls-box3{
+	list-style-image: url(./Assets/list-arrow.png);
+}
+
+#buttons {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+=======
 
 }
 
@@ -244,7 +313,6 @@ nav{
 	width: 90%;
 	text-align: center;
 	flex-direction: column;
-	
 }
 
 
@@ -255,11 +323,13 @@ nav{
 #RS a{
 	color: black;
 }
+
 #info a{
 	text-decoration-line: none;
 	text-decoration-color: black;
 	color: black;
 }
+
 .box5 { 
 	background-color: rgb(242,250,252);
 	display: flex;
@@ -284,7 +354,7 @@ nav{
 	font-size: 18pt;
     font-weight: 700;
 }
+
 .boxtesti {
 	text-align: center;
-
 }

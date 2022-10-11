@@ -386,12 +386,14 @@ h6 {
 }
 
 
-@media screen and (min-width: 1080px) {
-	nav{
-    background-color:#d4e9f5;
-    padding: 10pt;
-}
-
+@media screen and (min-width: 600px) {
+	header a{
+		text-decoration-line: none;
+	}
+		nav{
+		background-color:#d4e9f5;
+		padding: 10pt;
+	}
 
 
 

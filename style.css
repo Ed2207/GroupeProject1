@@ -185,7 +185,7 @@ h3 {
 	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(assets/pricing-background.jpeg);
 	background-repeat: no-repeat;
 	background-position: 0pt -60pt;
-	background-size: cover, cover;`
+	background-size: cover, cover;
 }	
 
 .partie1 {
@@ -383,13 +383,19 @@ h6 {
 }
 
 @media screen and (min-width: 1080px) {
+	header a{
+		text-decoration-line: none;
+	}
+
 	nav{
     background-color:#d4e9f5;
     padding: 10pt;
 }
+
 .description {
 	flex-direction: row;	
 }
+
 #forfait{
 	flex-direction: row;
 }
@@ -411,6 +417,44 @@ h6 {
 
 }
 
+/*.box2 {
+	background-color: red;
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-items: center;
+
+}*/
+.boxdebox2 {
+	
+	width: 25%;
+	height: 150pt;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+	padding-left: 10pt;
+	padding-right: 10pt;
+
+
+}
+.titreminibox{
+	font-size: 15pt;
+    
+}
+
+.textminibox{
+	font-size: 10pt;
+
+}
+.imageboxdebox2 {
+	height:35pt;
+}
+.rowbox {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 200pt;
+	padding-right: 200pt;
+}
+
 #liensex {
 	display: flex;
 	justify-content: space-around;
@@ -419,16 +463,4 @@ h6 {
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 

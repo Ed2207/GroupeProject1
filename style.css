@@ -123,7 +123,7 @@ body {
 }
 
 .large{
-	font-size: 25pt;
+	font-size: 40pt;
 	width: 90%;
 	text-align: center;
 }
@@ -197,6 +197,7 @@ body {
 	font-size: 30pt;
 }
 .txttestimony {
+	display: flex;
 	font-style: italic;
 	color: gray;
 }

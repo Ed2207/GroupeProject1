@@ -1,11 +1,39 @@
+
+span {
+	font-size: 30pt;
+}
+
+
+li {background-repeat: no-repeat;
+   background-size: contain;
+   background-position: left center; 
+   background-image: url(assets/list-arrow.png);
+   list-style-type: none;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 13pt;
+   padding-left: 40px;
+   font-size: 17px;
+   color: grey;
+}
+
+.prix { 
+	font-weight: bold;
+	font-size: 70pt;
+	margin-bottom: 0;
+	margin-top: 0;
+
+}
+
 body {
 	width: 100vw;
 	margin: 0;
 	padding: 0;
 }
 
-#main_container{
-	margin: 10pt;
+#main_container {
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 }
@@ -51,6 +79,12 @@ nav{
 	margin-bottom: 50pt;
 }
 
+.description {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 .box2 {
     display: flex;
@@ -70,11 +104,13 @@ nav{
 
 .textminibox{
 	font-size: 18pt;
-  color: gray;
+  color: grey;
 }
+
 .imageboxdebox2 {
 	height: 90pt;
 }
+
 .boxdebox2 {
 	display: flex;
 	flex-direction: column;
@@ -85,20 +121,20 @@ nav{
 	height: 300pt;
 	width: 90%;
 	margin-bottom: 30pt;
+	margin-top: 30pt;
 }
 
 .box3 {
     display: flex;
 	flex-direction: column;
-	justify-content: center;
+	align-items: center;
 	width: 100%;	
-	margin-left: 20pt;
-	margin-right: 20pt;
 }
 
-#ls-box3{
-	list-style-image: url(./Assets/list-arrow.png);
+.box3 div {
+	width: 90%;
 }
+
 #buttons {
 	width: 100%;
 	display: flex;
@@ -107,8 +143,10 @@ nav{
 }
 
 .image_box_3 {
-	width: 100%;
-	margin-bottom: 30pt;
+	width: 80%;
+	margin-bottom: 50pt;
+	display: flex;
+	justify-content: center;
 }
 
 .titrebox3 {
@@ -142,12 +180,13 @@ h3 {
 .box5 { 
 	background-color: rgb(242,250,252);
 	display: flex;
+	flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
 	justify-content: center;
-
 }
+
 .titletestimony {
 	font-size: 30pt;
 }
@@ -200,9 +239,13 @@ h3 {
 }
 
 h6 {
-	color: pink;
-	font-size: 18pt;
+	color: hotpink;
+	font-size: 30pt;
+	font-weight: bold;
+	margin-top: 30pt;
+	margin-bottom: 10pt;
 }
+
 #forfait{
 	display: flex;
 	flex-direction: column;
@@ -315,14 +358,6 @@ h6 {
 	align-items: center;
 }
 
-.description {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-
 .large{
 	font-size: 40pt;
 	width: 90%;
@@ -385,8 +420,6 @@ h6 {
 	width: 90%;
 }
 
-
-
 @media screen and (min-width: 1080px) {
 	header a{
 		text-decoration-line: none;
@@ -412,6 +445,39 @@ h6 {
 	#rouge {
 		color: red;
 	}
+
+
+
+	nav{
+    background-color:#d4e9f5;
+    padding: 10pt;
+}
+
+.description {
+	flex-direction: row;	
+}
+
+#forfait{
+	flex-direction: row;
+}
+.box6 {
+	background-size: contain, contain;`
+}	
+
+#RS{
+	width: 15%;
+	font-size: 20pt;
+}
+
+#info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+
+}
+
 
 /*.box2 {
 	background-color: red;
@@ -456,35 +522,13 @@ h6 {
 
 
 
+#liensex {
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 

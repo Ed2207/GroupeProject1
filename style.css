@@ -386,11 +386,13 @@ h6 {
 }
 
 
-@media screen and (min-width: 600px) {
+
+@media screen and (min-width: 1080px) {
 	header a{
 		text-decoration-line: none;
 		padding-left: 5pt;
 	}
+
 		nav{
 		background-color:#d4e9f5;
 		padding: 10pt;
@@ -411,9 +413,69 @@ h6 {
 		color: red;
 	}
 
+/*.box2 {
+	background-color: red;
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-items: center;
+
+}*/
+.boxdebox2 {
+	
+	width: 25%;
+	height: 150pt;
+	padding-top: 5pt;
+	padding-bottom: 5pt;
+	padding-left: 10pt;
+	padding-right: 10pt;
 
 
 }
+.titreminibox{
+	font-size: 15pt;
+    
+}
+
+.textminibox{
+	font-size: 10pt;
+
+}
+.imageboxdebox2 {
+	height:35pt;
+}
+.rowbox {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 200pt;
+	padding-right: 200pt;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

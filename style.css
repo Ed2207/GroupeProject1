@@ -563,8 +563,13 @@ h6 {
 } 
 
 .testiimg {
-    width: 50pt;
-	
+	border-radius: 50%;
+	width: 50pt;
+}
+
+.img_5_testi{
+	border-radius: 50%;
+
 }
 
 .txttestimony{
@@ -578,12 +583,11 @@ h6 {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
+	
 }
-.testi-1 {
+.testi_1 {
 	text-align: center;
-	width: 30px;
-	margin-left: 30px;
-	margin-right: 30px;
+	width: 15%;
 }
 
 .chevron {
@@ -591,7 +595,57 @@ h6 {
 	font-size: 20pt;
 }
 
+.box7 {
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 80pt;
+	
+}
 
+.large{
+	font-size: 20pt;
+	width: 90%;
+	text-align: center;
+}
+
+.download {
+	width: 30%;
+	margin-left: 15pt;
+}
+
+#buttons {
+	flex-direction: row;
+	align-items:baseline;
+	justify-content: space-around;
+}
+
+.box3 {
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;	
+	justify-content: center;
+}
+
+.image_box_3 {
+	width: 60%;
+	margin-bottom: 50pt;
+	display: flex;
+	justify-content: center;
+}
+.box3 div {
+	width: 40%;
+}
+.textbox3 {
+	font-size: 20pt;
+}
+
+
+.boxdebox3{
+	width: 40%;
+	flex-direction: row;
+
+}
 
 }
 

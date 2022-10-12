@@ -1,3 +1,9 @@
+
+span {
+	font-size: 30pt;
+}
+
+
 li {background-repeat: no-repeat;
    background-size: contain;
    background-position: left center; 
@@ -12,15 +18,22 @@ li {background-repeat: no-repeat;
    color: grey;
 }
 
+.prix { 
+	font-weight: bold;
+	font-size: 70pt;
+	margin-bottom: 0;
+	margin-top: 0;
 
-	body {
+}
+
+body {
 	width: 100vw;
 	margin: 0;
 	padding: 0;
 }
 
 #main_container {
-	margin: 10pt;
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 }
@@ -108,15 +121,18 @@ nav{
 	height: 300pt;
 	width: 90%;
 	margin-bottom: 30pt;
+	margin-top: 30pt;
 }
 
 .box3 {
     display: flex;
 	flex-direction: column;
-	justify-content: center;
+	align-items: center;
 	width: 100%;	
-	margin-left: 20pt;
-	margin-right: 20pt;
+}
+
+.box3 div {
+	width: 90%;
 }
 
 #buttons {
@@ -127,8 +143,10 @@ nav{
 }
 
 .image_box_3 {
-	width: 100%;
-	margin-bottom: 30pt;
+	width: 80%;
+	margin-bottom: 50pt;
+	display: flex;
+	justify-content: center;
 }
 
 .titrebox3 {
@@ -162,12 +180,13 @@ h3 {
 .box5 { 
 	background-color: rgb(242,250,252);
 	display: flex;
+	flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
 	justify-content: center;
-
 }
+
 .titletestimony {
 	font-size: 30pt;
 }
@@ -223,6 +242,8 @@ h6 {
 	color: hotpink;
 	font-size: 30pt;
 	font-weight: bold;
+	margin-top: 30pt;
+	margin-bottom: 10pt;
 }
 
 #forfait{

@@ -389,12 +389,26 @@ h6 {
 @media screen and (min-width: 600px) {
 	header a{
 		text-decoration-line: none;
+		padding-left: 5pt;
 	}
 		nav{
 		background-color:#d4e9f5;
 		padding: 10pt;
 	}
+	nav #bars {
+		display: none;
+	}
 
+	.menu{
+		width: 40%;
+		justify-content: space-between;
+	}
+	.logo {
+		padding-left: 140pt;
+	}
+	#rouge {
+		color: red;
+	}
 
 
 

@@ -1,3 +1,14 @@
+.rowbox{
+	align-items: center;
+display: flex;
+flex-direction: column;
+}
+
+
+.flexrow {
+	width: 350px;
+}
+
 span {
 	font-size: 30pt;
 }
@@ -61,7 +72,7 @@ nav{
 	background: linear-gradient(180deg, rgba(207,233,247,1) 0%, rgba(255,255,255,1) 100%);
 	align-items: center;
 	text-align: center;
-	padding: 10pt;
+	padding-top: 20pt;
 }
 
 #pbox1{
@@ -431,7 +442,7 @@ header a{
 nav{
     background-color:#d4e9f5;
     padding: 10pt;
-		padding-left: 5pt;
+	padding-left: 5pt;
 	}
   
 nav #bars {
@@ -444,6 +455,7 @@ nav #bars {
 		justify-content: space-between;
 		margin-right: 100pt;
 }
+
 .logo {
 		padding-left: 140pt;
 }
@@ -454,7 +466,7 @@ nav #bars {
 
 .flexrow {
 	display: flex;
-	width: 100%;
+	width: 350px;
 	justify-content: space-between;
 }
 .description {
@@ -517,10 +529,10 @@ nav #bars {
 }
 
 .rowbox {
-	display: flex;
-	justify-content: space-between;
-	padding-left: 200pt;
-	padding-right: 200pt;
+	flex-direction: row;
+justify-content: space-between;
+padding-left: 170pt;
+padding-right: 170pt;
 }
 
 
@@ -529,17 +541,17 @@ nav #bars {
 	justify-content: space-around;
 	width: 40%;
 }
-}
+
 .box5 { 
 	background-color: rgb(242,250,252);
 	flex-direction: column;
 	justify-content: center;
-
 }
 
 .box5Smartphones{
 	display: none;
 }
+
 .box5Desktop {
 	display: flex;
 	flex-direction: column;
@@ -549,11 +561,13 @@ nav #bars {
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
 .titletestimony {
 	font-size: 17pt;
 	word-spacing: 3pt;
 	
 }
+
 .testiplus {
 	display: flex;
 	width: 100%;
@@ -577,12 +591,14 @@ nav #bars {
 .nametestimony{
 	font-size: 12pt;
 }
+
 .testiplus {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
 	
 }
+
 .testi_1 {
 	text-align: center;
 	width: 15%;
@@ -622,8 +638,7 @@ nav #bars {
 	flex-direction: column;
 	align-items: center;
 	width: 100%;	
-	justify-content: center;
-	
+	justify-content: center;	
 }
 
 .image_box_3 {
@@ -636,21 +651,21 @@ nav #bars {
 .textbox3 {
 	font-size: 15pt;
 }
+
 .boxdebox3 {
 	display: flex;
-	flex-direction: row;
-	width: 70%;
-	justify-content: space-between;
-	margin-bottom: 40pt;
+flex-direction: row;
+width: 90%;
+justify-content: space-around;
+margin-bottom: 40pt;
 }
 
 .box3txt{
 	display: flex;
 	flex-direction: column;
 	width: 30%;
-	
-
 }
+
 .buttonbox3 {
 	display: flex;
 }
@@ -658,22 +673,34 @@ nav #bars {
 .box3txt2 {
 	display: flex;
 	flex-direction: column;
-	width: 30%;	
+	width: 40%;	
 }
 
 #smartphone {
 	width: 40%;
 }
+
 .violet {
-	width: 40%;
+	width: 160px;
 	margin-bottom:0pt;
 }
 
 .rose {
-	width: 40%;
+	width: 160px;
 	margin-bottom:0pt;
 }
+
 h1{
 	font-size: 36pt;
 	text-align: left;
+}
+
+.box1 {
+	text-align: left;
+}
+
+.blanc {width: 160px;
+margin-bottom: 0;
+margin-left: 20px;}
+
 }

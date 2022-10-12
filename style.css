@@ -25,7 +25,9 @@ li {background-repeat: no-repeat;
 	margin-top: 0;
 
 }
-
+.menu {
+	display: none;
+}
 body {
 	width: 100vw;
 	margin: 0;
@@ -148,6 +150,7 @@ nav{
 .titrebox3 {
 	font-size: 35pt;
 }
+
 
 .box4 {
 	display: flex;
@@ -434,8 +437,10 @@ h6 {
 	}
 
 	.menu{
+		display: flex;
 		width: 40%;
 		justify-content: space-between;
+		margin-right: 100pt;
 	}
 	.logo {
 		padding-left: 140pt;

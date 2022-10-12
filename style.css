@@ -1,10 +1,25 @@
-body {
+li {background-repeat: no-repeat;
+   background-size: contain;
+   background-position: left center; 
+   background-image: url(assets/list-arrow.png);
+   list-style-type: none;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 13pt;
+   padding-left: 40px;
+   font-size: 17px;
+   color: grey;
+}
+
+
+	body {
 	width: 100vw;
 	margin: 0;
 	padding: 0;
 }
 
-#main_container{
+#main_container {
 	margin: 10pt;
 	display: flex;
 	flex-direction: column;
@@ -50,6 +65,7 @@ nav{
 	align-items: center;
 	margin-bottom: 50pt;
 }
+
 .description {
 	width: 100%;
 	display: flex;
@@ -75,11 +91,13 @@ nav{
 
 .textminibox{
 	font-size: 18pt;
-  color: gray;
+  color: grey;
 }
+
 .imageboxdebox2 {
 	height: 90pt;
 }
+
 .boxdebox2 {
 	display: flex;
 	flex-direction: column;
@@ -101,9 +119,6 @@ nav{
 	margin-right: 20pt;
 }
 
-#ls-box3{
-	list-style-image: url(./Assets/list-arrow.png);
-}
 #buttons {
 	width: 100%;
 	display: flex;
@@ -205,9 +220,11 @@ h3 {
 }
 
 h6 {
-	color: pink;
-	font-size: 18pt;
+	color: hotpink;
+	font-size: 30pt;
+	font-weight: bold;
 }
+
 #forfait{
 	display: flex;
 	flex-direction: column;

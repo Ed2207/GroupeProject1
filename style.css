@@ -426,32 +426,41 @@ header a{
 		text-decoration-line: none;
 }
 
+
+
 nav{
     background-color:#d4e9f5;
     padding: 10pt;
 		padding-left: 5pt;
 	}
   
-	nav #bars {
+nav #bars {
 		display: none;
 	}
 
-	.menu{
+.menu{
 		display: flex;
 		width: 40%;
 		justify-content: space-between;
 		margin-right: 100pt;
-	}
-	.logo {
+}
+.logo {
 		padding-left: 140pt;
-	}
+}
 
-	#rouge {
+#rouge {
 		color: red;
-	}
+}
 
+.flexrow {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
 .description {
-	flex-direction: row;	
+	flex-direction: row;
+	justify-content: space-between;
+	width: 70%;	
 }
 
 #forfait{
@@ -598,7 +607,7 @@ nav{
 }
 
 .download {
-	width: 30%;
+	width: 40%;
 	margin-left: 15pt;
 }
 
@@ -649,8 +658,22 @@ nav{
 .box3txt2 {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
-	
-}
+	width: 30%;	
 }
 
+#smartphone {
+	width: 40%;
+}
+.violet {
+	width: 40%;
+	margin-bottom:0pt;
+}
+
+.rose {
+	width: 40%;
+	margin-bottom:0pt;
+}
+h1{
+	font-size: 36pt;
+	text-align: left;
+}
